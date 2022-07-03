@@ -23,10 +23,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NCodersLab\\LaravelIdenticon\\IdenticonServiceProvider"
+                "Ncoderslab\\LaravelIdenticon\\IdenticonServiceProvider"
             ],
             "aliases": {
-                "Identicon": "NCodersLab\\LaravelIdenticon\\IdenticonFacade"
+                "Identicon": "Ncoderslab\\LaravelIdenticon\\IdenticonFacade"
             }
         }
     }

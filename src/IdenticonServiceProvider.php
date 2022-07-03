@@ -1,6 +1,6 @@
 <?php
 
-namespace NCodersLab\LaravelIdenticon;
+namespace Ncoderslab\LaravelIdenticon;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
