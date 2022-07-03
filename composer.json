@@ -1,0 +1,33 @@
+{
+    "name": "ncoderslab/laravel-identicon",
+    "description": "Laravel Identicon Package",
+    "keywords": ["identicon", "avatar","default image", "image", "laravel identicon", "laravel", "laravel 8", "laravel 9"],
+    "homepage": "https://github.com/ncoderslab/laravel-identicon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nCoders Lab",
+            "email": "ncoderslab@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "illuminate/support": "^8.0 || ^9.0",
+        "yzalis/identicon": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ncoderslab\\LaravelIdenticon\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NCodersLab\\LaravelIdenticon\\IdenticonServiceProvider"
+            ],
+            "aliases": {
+                "Identicon": "NCodersLab\\LaravelIdenticon\\IdenticonFacade"
+            }
+        }
+    }
+}
